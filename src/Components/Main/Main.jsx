@@ -1,6 +1,6 @@
 import React from 'react'
 import './Main.css'
-import Landingdos from '../Landingdos/landingdos'
+import Landingdos from '../Landingdos/Landingdos'
 import Landingtres from '../Landingtres/Landingtres'
 import LandingFooter from '../LandingFooter/LandingFooter'
 import Footer from '../Footer/Footer'
