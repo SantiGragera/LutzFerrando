@@ -10,7 +10,7 @@ const Landingdos = () => {
                 <span className='toqueLD'> LENTES </span> 
                 <br /> RECETADOS
             </h2>
-            <Link className="links" to={"/lentes"}>
+            <Link className="links textd" to={"/lentes"}>
                 <button className="btnvc">
                     VER COLECCION
                 </button>
@@ -30,7 +30,7 @@ const Landingdos = () => {
                         <h5 className="cardprecio">
                             $42.900
                         </h5>
-                          <Link to={'/lentes'} >
+                          <Link className="textd" to={'/lentes'} >
                               <button className='btncard'>ver más</button>
                           </Link>
                     </div>
@@ -49,7 +49,7 @@ const Landingdos = () => {
                         <h5 className="cardprecio">
                             $49.980
                         </h5>
-                          <Link to={'/lentes'}>
+                          <Link className="textd" to={'/lentes'}>
                               <button className='btncard'>ver más</button>
                           </Link>
                     </div>
@@ -68,7 +68,7 @@ const Landingdos = () => {
                         <h5 className="cardprecio">
                             $42.900
                         </h5>
-                          <Link to={'/lentes'}>
+                          <Link className="textd" to={'/lentes'}>
                               <button className='btncard'>ver más</button>
                           </Link>
                     </div>

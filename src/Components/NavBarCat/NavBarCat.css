@@ -2,6 +2,10 @@
     background-color: #74EF87;
     border-radius: 0 0 25px 0;
 }
+.textd{
+    text-decoration: none;
+    color: black;
+}
 @media (max-width: 800px){
     .nbCarrito{
         padding-right: 25px;

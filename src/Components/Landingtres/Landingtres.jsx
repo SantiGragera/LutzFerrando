@@ -14,7 +14,7 @@ const Landingtres = () => {
                     ACCESORIOS
                 </h2>
                 <div className="containerdeboton">
-                    <Link className="links" to="/accesorios">
+                    <Link className="links textd" to="/accesorios">
                         <button className="btnvc3">
                             VER COLECCION
                         </button>

@@ -9,45 +9,45 @@ const NavBarCat = () => {
   return (
       <div className='navbar cat'>
           <div className='nbLogo catlog'>
-              <Link to="/">
-                  <img src="/public/main/logogo.png" alt="logo" />
+              <Link className="textd" to="/">
+                  <img src="/main/logogo.png" alt="logo" />
               </Link>
           </div>
           <div className={`nbList ${menuVisible && 'visible'}`}>
               <ul>
               <li>
-                      <Link to="/lentes">
+                      <Link className="textd" to="/lentes">
                           Lentes
                       </Link>
                 </li>
                 <li>
-                    <Link to="/lentesdesol">
+                    <Link className="textd" to="/lentesdesol">
                         Lentes De Sol
                     </Link>
                 </li>
                 <li>
-                      <Link to="/accesorios">
+                      <Link className="textd" to="/accesorios">
                           Accesorios
                       </Link>
                 </li>
                 <li>
-                      <Link to="/nosotros">
+                      <Link className="textd" to="/nosotros">
                           Nosotros
                       </Link>
                 </li>
               </ul>
               <button className='cerrar-menu cerrarhambur' onClick={() => setMenuVisible(false)}>
-                  <img src="/public/main/cerrar.png" alt="" />
+                  <img src="/main/cerrar.png" alt="" />
               </button>
           </div>
           <div className='nbCarrito'>
-                <Link to="/cart">
+                <Link className="textd" to="/cart">
                     <img className='cartito' src="/public/main/carrito.png" alt="carritologo" />
                 </Link>
           </div>
           <div>
               <button className='abrir-menu hamburlogo' onClick={() => setMenuVisible(true)} >
-                  <img src="/public/main/hambur.png" alt="logo de hamburguesa" />
+                  <img src="/main/hambur.png" alt="logo de hamburguesa" />
               </button>
           </div>
       </div>

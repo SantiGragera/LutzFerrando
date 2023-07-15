@@ -18,7 +18,7 @@ const Main = () => {
             <br /> en lentes
             <br /> de sol
           </h1>
-          <Link className="links" to="/lentesdesol">
+          <Link className="links textd" to="/lentesdesol">
             <button className="btnvcl">
               VER COLECCION
             </button>
