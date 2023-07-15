@@ -26,7 +26,7 @@ const Nosotros = () => {
                           en el campo de la salud visual. Están dedicados a realizar exámenes oculares completos y precisos,
                           utilizando tecnología de última generación para obtener resultados confiables y precisos.
                       </p>
-                      <img src="public/main/optico.jpg" alt="optico trabjando" />
+                      <img src="/main/optico.jpg" alt="optico trabjando" />
                   </div>
               </div>
               <div className='armazones'>
@@ -37,13 +37,13 @@ const Nosotros = () => {
                 nuestros clientes.</p>
                 <div className='fotosnosotro'>
                     <Link to="/accesorios">
-                        <img className='imgNos' src="public/productos/accesorios/aosept.png" alt="" />
+                        <img className='imgNos' src="/productos/accesorios/aosept.png" alt="" />
                     </Link>
                     <Link to="/lentes">
-                        <img className='imgNos' src="public/productos/lentesrecetados/barcelonacarey.png" alt="" />
+                        <img className='imgNos' src="/productos/lentesrecetados/barcelonacarey.png" alt="" />
                     </Link>
                     <Link to="/lentesdesol">
-                        <img className='imgNos' src="public/productos/lentesdesol/squarerosa.png" alt="" />
+                        <img className='imgNos' src="/productos/lentesdesol/squarerosa.png" alt="" />
                     </Link>
                 </div>
               </div>
