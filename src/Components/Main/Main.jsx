@@ -26,7 +26,7 @@ const Main = () => {
 
         </div>
         <div className='imagenmain'>
-          <img className='distor' src="/public/main/lentemain.png" alt="" />
+          <img className='distor' src="/main/lentemain.png" alt="" />
         </div>
       </div>
       <Landingdos />
