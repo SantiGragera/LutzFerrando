@@ -41,6 +41,8 @@
     font-weight: 800;
     background-color: transparent;
     border: 1px solid #74EF87;
+    text-decoration: none;
+    color: black;
 }
 .vcyt{
     font-family: 'Be Vietnam Pro', sans-serif;
