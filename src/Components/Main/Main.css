@@ -39,6 +39,8 @@
     align-items: flex-end;
     justify-content: center;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 .links{
     text-decoration: none;
