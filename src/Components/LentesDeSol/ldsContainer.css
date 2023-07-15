@@ -1,0 +1,133 @@
+.todolds{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.containerlds{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardLds{
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 25rem;
+    height: 28rem;
+    transition: all 0.2s linear;
+}
+.bg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5rem 0;
+    margin: 2rem;
+}
+.fotocard{
+    width: 20rem;
+}
+.filterLdS{
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.containerfilter{
+    padding-top: 1rem;
+    height: 100%;
+    border-radius: 0;
+}
+.nombrelds{
+    font-size: 1.2rem;
+}
+.nombrelds,
+.preciolds{
+    padding-bottom: 1rem;
+}
+.btnlds{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    border: none;
+    font-size: 15px;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 25px;
+    background-color: #74EF87;
+    color: black;
+    font-weight:600;
+    transition: all 0.5s ease;
+}
+.linkcards{
+    text-decoration: none;
+    color: black;
+}
+.btnlds:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.inputBuscar{
+    border: 2px solid #74EF87;
+    border-radius: 20px;
+    height: 20px;
+    width: 12rem;
+}
+.busqueda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.losh3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (max-width: 800px){
+    .containerlds{
+        display: flex;
+        flex-direction: column;
+    }
+    .filterLdS{
+        display: flex;
+        padding-top: 15px;
+        height: 80px;
+        gap: 0;
+    }
+    .losh3{
+        display: flex;
+        flex-direction: row;
+    }
+    .filterLdS h3{
+        padding-top: 15px;
+    }
+    .bg{
+        padding-top: 0;
+    }
+}
+@media (max-width: 500px){
+    .containerlds{
+        display: flex;
+        flex-direction: column;
+    }
+    .filterLdS{
+        display: flex;
+    }
+    .losh3{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (max-width: 320px){
+    .fotocard{
+        width: 15rem;
+    }
+    .cardLds{
+        padding: 0;
+    }
+    .bg{
+        padding-top: 50px;
+    }
+}

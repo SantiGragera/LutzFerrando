@@ -1,0 +1,109 @@
+.todolpt{
+    padding-top: 12.5rem;
+}
+.ldcmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    padding-bottom: 10rem;
+}
+.accmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+}
+.textldc, .textacc{
+    font-size: 5rem;
+    line-height: 6rem;
+}
+.btnvc3{
+    width: 15.5rem;
+    height: 2.5rem;
+    border-radius: 35px;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 0.4em;
+    font-family: 'Bebas Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.containerdeboton{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:1050px) {
+    .textldc, .textacc{
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+
+    .btnvc3{
+        width: 16rem;
+        height: 2rem;
+        font-size: 0.45em;
+    }
+    .ldcmain,
+    .accmain{
+        gap: 10rem;
+    }
+    .ldcimg img,
+    .acclogo img{
+        width: 18rem;
+    }
+}
+@media (max-width:800px) {
+    .textldc, .textacc{
+        font-size: 2.8rem;
+        line-height: 3.2rem;
+    }
+
+    .btnvc3{
+        width: 13rem;
+        height: 2rem;
+        font-size: 0.55em;
+    }
+    .ldcmain,
+    .accmain{
+        gap: 4rem;
+    }
+    .ldcmain{
+        padding-bottom: 3rem;
+    }
+    .ldcimg img,
+    .acclogo img{
+        width: 16rem;
+    }
+}
+@media (max-width:580px) {
+    .textldc, .textacc{
+        font-size: 2.8rem;
+        line-height: 3.2rem;
+    }
+
+    .btnvc3{
+        width: 13rem;
+        height: 2rem;
+        font-size: 0.55em;
+    }
+    .ldcmain,
+    .accmain{
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+    }
+    .accmain{
+        gap: 2rem;
+    }
+    .ldcmain{
+        padding-bottom: 3rem;
+    }
+    .ldcimg img,
+    .acclogo img{
+        width: 16rem;
+    }
+}

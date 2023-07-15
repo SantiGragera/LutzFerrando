@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    background-image: url('/public/vite.svg');
+    width: 100%;
+    height: 100%;
+}

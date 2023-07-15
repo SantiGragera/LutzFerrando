@@ -1,0 +1,73 @@
+.todoLF{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.form{
+    padding-bottom: 10rem;
+    padding-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.form h2{
+    font-size: 4rem;
+    line-height: 0.9em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+.halfcolor{
+    color: white;
+}
+.formbox{
+    background-color: #fff;
+    border-radius: 7rem;
+    width: 25rem;
+    height: 30rem;
+}
+.inputsform{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5em;
+}
+.inputsform input{
+    width: 17em;
+    height: 2.5em;
+    border: none;
+    border-bottom: 3px solid #74EF87;
+    outline-offset: 5px;
+    outline-color: #74EF87;
+}
+.suscribe{
+    border: none;
+    background-color: #74EF87;
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 2em;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.inputsform input::-webkit-input-placeholder{
+    color: black;
+    font-size: 1.5em;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+@media (max-width:620px) {
+    .form h2{
+        font-size: 2.8rem;
+    }
+}
+@media (max-width:440px) {
+    .form h2{
+        font-size: 2rem;
+    }
+    .formbox{
+        width: 20rem;
+        height: 40rem;
+    }
+}

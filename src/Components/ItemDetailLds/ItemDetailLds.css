@@ -1,0 +1,155 @@
+.todomaindos{
+    position: absolute;
+    right: 0;
+    left: 0;
+    background: url(/public/vite.svg);
+    width: 100%;
+    height: 100%;
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.detalletodo{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+.tododetail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20rem;
+}
+.textDetail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.nomypre{
+    color: white;
+    font-size: 80px;
+    line-height: 50px;
+}
+.prodname{
+    width: 40rem;
+    line-height: 70px;
+}
+.prodprice{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 40px;
+    letter-spacing: -3px;
+}
+.imgdetail{
+    width: 40rem;
+    height: 40rem;
+}
+.btncomprasdiv{
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.btncompras{
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+@media (max-width: 1650px){
+    .tododetail{
+        gap: 10px;
+    }
+}
+@media (max-width: 1330px){
+    .prodname{
+        font-size: 3rem;
+        line-height: 40px;
+        width: 23rem;
+    }
+    .prodprice{
+        font-size: 2rem;
+    }
+    .textDetail{
+        width: 400px;
+    }
+    .imgdetail{
+        width: 25rem;
+        height: 25rem;
+    }
+}
+@media (max-width: 1100px){
+    .prodname{
+        font-size: 3rem;
+        line-height: 40px;
+        width: 15rem;
+    }
+    .prodprice{
+        font-size: 2rem;
+    }
+    .textDetail{
+        width: 200px;
+    }
+    .imgdetail{
+        width: 25rem;
+        height: 25rem;
+    }
+}
+@media (max-width: 1100px){
+    .imgdetail{
+        width: 15rem;
+        height: 15rem;
+    }
+}
+@media (max-width: 600px){
+    .tododetail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .prodname{
+        width: 400px;
+    }
+}
+@media (max-width: 410px){
+    .tododetail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .prodname{
+        width: 300px;
+    }
+}
+@media (max-width: 300px){
+    .tododetail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .prodname{
+        width: 200px;
+    }
+}
+@media (max-width: 250px){
+    .imgdetail{
+        width: 10rem;
+        height: 10rem;
+    }
+    .prodname{
+        width: 150px;
+        font-size: 2rem;
+        line-height: 28px;
+    }
+    .prodprice{
+        font-size: 25px;
+    }
+}

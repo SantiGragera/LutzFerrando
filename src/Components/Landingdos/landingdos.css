@@ -1,0 +1,338 @@
+.todolp2{
+    padding-top: 10rem;
+}
+.landing2{
+    display: flex;
+    justify-content: space-around;
+}
+.toqueLD{
+    color: black;
+}
+.Landing2ttl{
+    position: relative;
+    top: 11rem;
+    padding-right: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.titulolpd{
+    font-size: 5rem;
+    line-height: 4.2rem;
+}
+.btnvc{
+    width: 17rem;
+    height: 2.5rem;
+    border-radius: 35px;
+    background-color: rgb(255, 255, 255, 0.4);
+    border: 1px solid black;
+    font-size: 1.8em;
+    font-family: 'Bebas Neue', sans-serif;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    cursor: pointer;
+}
+.cards{
+    border: 1px solid black;
+    border-radius: 4rem;
+    width: 22rem;
+    height: 35rem;
+}
+.carduno{
+    background-color: #74EF87;
+}
+.carduno img{
+    width: 32rem;
+    position: relative;
+    left: -5em;
+}
+.cardo img{
+    width: 40em;
+    position: relative;
+    right: 8em;
+    bottom: 3em;
+}
+.cardtres img{
+    width: 25em;
+    position: relative;
+    right: 1.5em;
+}
+.cardtres{
+    background-color: white;
+}
+.cdos{
+    padding-top: 10rem;
+}
+.ctres{
+    padding-top: 20rem;
+}
+.textoscard{
+    width: 100%;
+    height: 50%;
+}
+.imgcard{
+    width: 100%;
+    height: 50%;
+    border-radius: 4rem 4rem 0 0 ;
+}
+.textoscard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardtitle{
+    font-size: 3.5em;
+}
+.cardprecio{
+    font-size: 2em;
+}
+.btncard{
+    width: 8rem;
+    height: 2.5rem;
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 4em;
+    font-size: 1.5em;
+    font-family: 'Bebas Neue', sans-serif;
+    cursor: pointer; 
+}
+.links{
+    cursor: pointer;
+}
+@media (max-width:1700px){
+    .toqueLD{
+        color: #74EF87;
+    }
+}
+@media (max-width:1350px){
+    .cards{
+        width: 19rem;
+        height: 30rem;
+    }
+    .carduno img{
+        width: 27rem;
+    }
+    .cardo img{
+        width: 32em;
+        right: 6em;
+    }
+    .cardtres img{
+        width: 21em;
+        right: 1em;
+    }
+    .titulolpd{
+        font-size: 4.5rem;
+        line-height: 3.8rem;
+    }
+    .btnvc{
+        width: 15rem;
+    }
+    .Landing2ttl{
+        padding-right: 5rem;
+    }
+}
+@media (max-width:1250px) {
+    .cardtres{
+        background-color: transparent;
+    }
+}
+@media (max-width:1100px){
+    .todolp2{
+        padding-top: 8rem;
+    }
+    .cards{
+        width: 17rem;
+        height: 28rem;
+    }
+    .carduno img{
+        width: 21rem;
+        left: 0;
+    }
+    .cardo img{
+        width: 25em;
+        right: 3.5em;
+    }
+    .cardtres img{
+        width: 17em;
+        right: -1em;
+        top: 1.5rem;
+    }
+    .cardtres{
+        background-color: transparent;
+    }
+    .cardtitle{
+        font-size: 2.5rem;
+    }
+    .cardprecio{
+        font-size: 2rem;
+    }
+    .btncard{
+        height: 2rem;
+        width: 6rem;
+    }
+}
+@media (max-width:900px){
+    .todolp2{
+        padding-top: 5.5rem;
+    }
+    .cards{
+        width: 14rem;
+        height: 25rem;
+    }
+    .carduno img{
+        width: 18rem;
+        left: -2rem;
+    }
+    .cardo img{
+        width: 22em;
+        right: 3.5em;
+        top: -1rem;
+    }
+    .cardtres img{
+        width: 15em;
+        right: 0em;
+    }
+    .cardtitle{
+        font-size: 2.3rem;
+    }
+    .cardprecio{
+        font-size: 1.7rem;
+    }
+    .btncard{
+        height: 1.8rem;
+        width: 6rem;
+    }
+    .titulolpd{
+        font-size: 3.5rem;
+        line-height: 2.9rem;
+    }
+    .btnvc{
+        width: 12rem;
+        height: 2rem;
+        font-size: 1.5rem;
+    }
+    .Landing2ttl{
+        padding-right: 2.5rem;
+    }
+}
+@media (max-width:780px){
+    .cardtres img{
+        width: 14rem;
+    }
+}
+@media (max-width:700px){
+    .todolp2{
+        padding-top: 0rem;
+    }
+    .Landing2ttl{
+        padding-right: 0;
+        padding-bottom: 15rem;
+        display: flex;
+        align-items: center;
+    }
+    .landing2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .cdos{
+        padding: 0;
+    }
+    .ctres{
+        padding: 0;
+    }
+    .cards{
+        width: 14rem;
+        height: 25rem;
+    }
+    .carduno img{
+        width: 18rem;
+        left: -2rem;
+    }
+    .cardo img{
+        width: 22em;
+        right: 3.5em;
+        top: -1rem;
+    }
+    .cardtres img{
+        width: 16em;
+        right: -0.4em;
+    }
+    .cardtitle{
+        font-size: 2.3rem;
+    }
+    .cardprecio{
+        font-size: 1.7rem;
+    }
+    .btncard{
+        height: 1.8rem;
+        width: 6rem;
+    }
+    .titulolpd{
+        font-size: 3.5rem;
+        line-height: 2.9rem;
+    }
+    .btnvc{
+        width: 12rem;
+        height: 2rem;
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:500px){
+    .todolp2{
+        padding-top: 0rem;
+    }
+    .Landing2ttl{
+        padding-right: 0;
+        padding-bottom: 15rem;
+        display: flex;
+        align-items: center;
+    }
+    .landing2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .cdos{
+        padding: 0;
+    }
+    .ctres{
+        padding: 0;
+    }
+    .cards{
+        width: 14rem;
+        height: 25rem;
+    }
+    .carduno img{
+        width: 18rem;
+    }
+    .cardo img{
+        width: 18em;
+        right: 1rem;
+    }
+    .cardtres img{
+        width: 16em;
+    }
+    .cardtitle{
+        font-size: 2.3rem;
+    }
+    .cardprecio{
+        font-size: 1.7rem;
+    }
+    .btncard{
+        height: 1.8rem;
+        width: 6rem;
+    }
+    .titulolpd{
+        font-size: 3.5rem;
+        line-height: 2.9rem;
+    }
+    .btnvc{
+        width: 12rem;
+        height: 2rem;
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,94 @@
+.todoF{
+    padding-top: 7.5rem;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    padding-bottom: 2rem;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.linea{
+    height: 3px;
+    width: 35%;
+    background-color: black;
+
+}
+.logodelfooter{
+    width: 7rem;
+}
+.redes{
+    width: 3rem;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+}
+.legal{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.legal h3{
+    font-size: 1.5rem;
+}
+
+@media (max-width:1100px) {
+    .redes{
+        width: 2.5rem;
+    }
+    .logodelfooter{
+        width: 5rem;
+    }
+    .legal{
+        gap: 2rem;
+    }
+    .politics h3{
+        font-size: 1.2rem;
+    }
+}
+@media (max-width:850px) {
+    .todoF{
+        padding-top: 0;
+    }
+    .redes{
+        width: 1.8rem;
+    }
+    .logodelfooter{
+        width: 3.8rem;
+    }
+    .legal{
+        gap: 1.5rem;
+    }
+    .politics h3{
+        font-size: 1rem;
+    }
+}
+@media (max-width:580px) {
+    .redes{
+        width: 1.3rem;
+    }
+    .logodelfooter{
+        width: 3rem;
+    }
+    .legal{
+        gap: 1rem;
+    }
+    .politics h3{
+        font-size: 0.8rem;
+    }
+}
+@media (max-width:465px) {
+    .redes{
+        width: 1rem;
+    }
+    .logodelfooter{
+        width: 2.5rem;
+    }
+    .legal{
+        gap: 1rem;
+    }
+    .politics h3{
+        font-size: 0.6rem;
+    }
+}
