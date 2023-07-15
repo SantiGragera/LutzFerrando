@@ -10,7 +10,7 @@ import ItemDetailLr from './Components/ItemDetailLr/ItemDetailLr';
 import ItemDetailAcc from './Components/ItemDetailAcc/ItemDetailAcc';
 import DetailContainerLds from './Components/DetailContainerLds/DetailContainerLds';
 import { CartContextProvider } from './Components/context/CartContex';
-import LrContainer from './Components/LentesRecetados/lrContainer';
+import LrContainer from './Components/LentesRecetados/LrContainer';
 
 initFirebase();
 
