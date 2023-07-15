@@ -1,6 +1,6 @@
 import React from 'react'
 import './ItemCount.css'
-import useCounter from '../UseCounter/UseCounter'
+import useCounter from '../UseCounter/useCounter'
 
 const ItemCount = ({initial=1, stock=5, onAdd}) => {
     const { counter, handleSumar, handleRestar } = useCounter(initial, 1, stock)
