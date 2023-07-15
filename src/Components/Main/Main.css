@@ -42,7 +42,12 @@
 }
 .links{
     text-decoration: none;
+    color: black;
     cursor: pointer;
+}
+.textd{
+    text-decoration: none;
+    color: black;
 }
 
 @media (max-width:1200px) {

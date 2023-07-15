@@ -42,7 +42,7 @@ const NavBarCat = () => {
           </div>
           <div className='nbCarrito'>
                 <Link className="textd" to="/cart">
-                    <img className='cartito' src="/public/main/carrito.png" alt="carritologo" />
+                    <img className='cartito' src="/main/carrito.png" alt="carritologo" />
                 </Link>
           </div>
           <div>
