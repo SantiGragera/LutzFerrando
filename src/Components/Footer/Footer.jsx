@@ -6,11 +6,11 @@ const Footer = () => {
     <div className='todoF'>
         <div className="logos">
             <div className="linea"></div>
-            <img className='redes' src="/public/main/logoig.png" alt="" />
-            <img className='redes' src="/public/main/logofb.png" alt="" />
-            <img className='logodelfooter' src="/public/main/logogo.png" alt="" />
-            <img className='redes' src="/public/main/logogm.png" alt="" />
-            <img className='redes' src="/public/main/logowp.png" alt="" />
+            <img className='redes' src="/main/logoig.png" alt="" />
+            <img className='redes' src="/main/logofb.png" alt="" />
+            <img className='logodelfooter' src="/main/logogo.png" alt="" />
+            <img className='redes' src="/main/logogm.png" alt="" />
+            <img className='redes' src="/main/logowp.png" alt="" />
             <div className="linea"></div>
         </div>
         <div className="politics">

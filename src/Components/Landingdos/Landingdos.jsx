@@ -21,7 +21,7 @@ const Landingdos = () => {
             <div className="cuno">
                 <div className="cards">
                     <div className="imgcard carduno">
-                        <img src="/public/main/lenteLp.png" alt="" />
+                        <img src="/main/lenteLp.png" alt="" />
                     </div>
                     <div className="textoscard">
                         <h2 className="cardtitle">
@@ -40,7 +40,7 @@ const Landingdos = () => {
             <div className="cdos">
                 <div className="cards">
                     <div className="imgcard cardo">
-                        <img src="/public/main/lenteLpDos.png" alt="" />
+                        <img src="/main/lenteLpDos.png" alt="" />
                     </div>
                     <div className="textoscard">
                         <h2 className="cardtitle">
@@ -59,7 +59,7 @@ const Landingdos = () => {
             <div className="ctres">
                 <div className="cards">
                     <div className="imgcard cardtres">
-                        <img src="/public/main/lenteLpTres.png" alt="" />
+                        <img src="/main/lenteLpTres.png" alt="" />
                     </div>
                     <div className="textoscard">
                         <h2 className="cardtitle">

@@ -7,7 +7,7 @@ const Landingtres = () => {
     <div className='todolpt'>
         <div className="accmain">
             <div className="acclogo">
-                <img src="./public/main/acclogo.png" alt="logo de accesorios" />
+                <img src="/main/acclogo.png" alt="logo de accesorios" />
             </div>
             <div className="textacc">
                 <h2>

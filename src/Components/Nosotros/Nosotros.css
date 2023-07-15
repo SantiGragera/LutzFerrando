@@ -5,7 +5,7 @@
     position: absolute;
     right: 0;
     left: 0;
-    background: url(./public/vite.svg);
+    background: url(/vite.svg);
     width: 100%;
     background-size: cover;
     /* background-position: center; */

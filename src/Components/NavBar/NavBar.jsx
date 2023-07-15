@@ -10,7 +10,7 @@ const NavBar = () => {
     <div className='navbar'>
         <div className='nbLogo'>
             <Link to="/">
-                 <img src="/public/main/logogo.png" alt="logo" />
+                 <img src="/main/logogo.png" alt="logo" />
             </Link>
         </div>
         <div  className={`nbList ${menuVisible && 'visible'}`}> 
@@ -37,17 +37,17 @@ const NavBar = () => {
                 </li>
             </ul>
             <button className='cerrar-menu cerrarhambur' onClick={() => setMenuVisible(false)}>
-                <img src="/public/main/cerrar.png" alt="" />
+                <img src="/main/cerrar.png" alt="" />
             </button>
         </div>
         <div className='nbCarrito'>
               <Link to="/cart">
-                  <img className='cartito' src="/public/main/carrito.png" alt="carritologo" />
+                  <img className='cartito' src="/main/carrito.png" alt="carritologo" />
               </Link>
         </div>
         <div>
             <button className='abrir-menu hamburlogo' onClick={() => setMenuVisible(true)} >
-                <img src="/public/main/hambur.png" alt="logo de hamburguesa" />
+                <img src="/main/hambur.png" alt="logo de hamburguesa" />
             </button>
         </div>
     </div>
