@@ -32,6 +32,8 @@
     align-items: flex-end;
     justify-content: center;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 .cards{
     border: 1px solid black;
@@ -96,6 +98,8 @@
     font-size: 1.5em;
     font-family: 'Bebas Neue', sans-serif;
     cursor: pointer; 
+    text-decoration: none;
+    color: black;
 }
 .links{
     cursor: pointer;
